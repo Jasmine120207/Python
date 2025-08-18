@@ -1,0 +1,5 @@
+a=int(input("enter the number"))
+b=int(input("enter the number"))
+c=int(input("enter the number"))
+big= a if(a>=b and a>=c) else (b if b>=c else c)
+print(big)
