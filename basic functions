@@ -1,0 +1,6 @@
+def basic(a,b):
+    print("The sum is :" ,a+b)
+    print("the difference is:" ,a-b)
+    print("The multiplication is :" ,a*b)
+    print("the divison is ;",a/b)
+basic(10,5)
