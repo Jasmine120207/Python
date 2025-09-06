@@ -1,0 +1,9 @@
+def multiple(a,b):
+    add=a+b
+    mul=a*b
+    div=a/b
+    return add,mul,div
+add,mul,div=multiple(10,5)
+print("the sum is ",add)
+print("the multiplication is:",mul)
+print("the division is :",div)
