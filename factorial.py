@@ -1,5 +1,9 @@
-n=int(input("enter the nuber"))
-fac=1
-for i in range(1,n+1):
-  fac=fac*i
-  print(fac)
+def factorail(n):
+    if (n==0):
+       return 1
+    else:
+       return n*factorail(n-1)
+n=int(input("enter the number:"))
+print("Factorial of number is ,",factorail(n))
+    
+    
